@@ -1,0 +1,29 @@
+table {
+  border-collapse: collapse;
+  margin: 0px auto;
+  margin-top: 50px;
+}
+
+table th,
+table td {
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid #ede5e2;
+}
+
+table th {
+  text-transform: uppercase;
+  color: var(--color-white);
+  background-color: var(--color-light-sea);
+}
+
+table td {
+  text-transform: capitalize;
+  color: var(--color-secondary-text);
+}
+
+tbody tr:nth-child(2n) {
+  background-color: #f4f4f4;
+}
